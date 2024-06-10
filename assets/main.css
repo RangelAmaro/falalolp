@@ -93,6 +93,8 @@ a:hover {
     width: var(--largura-total-pagina);
     display: flex;
     gap: 1rem;
+    color: var(--preto);
+    text-decoration: none!important;
 }
 
 .logo-header {
@@ -237,6 +239,20 @@ a:hover {
 
 .indicator.active {
     background-color: #333;
+}
+
+/* Planos */
+.argumento-planos{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1rem;
+    font-size: larger;
+}
+
+.argumento-planos svg{
+    fill: var(--preto);
+    width: 4.4rem;
 }
 
 /* Footer */
