@@ -14,8 +14,10 @@ body{
 :root {
     --destaque-claro: #0FD32D;
     --destaque-escuro: #076A16;
+    --verde-agua: #80C9BC;
     --branco: #fff;
     --preto: #231F26;
+    --preto-transparente: #231f266c;
     --cinza: #D9D9D9;
     --cinza-escuro: #747474;
     --largura-total-pagina: 700px;
@@ -242,6 +244,42 @@ a:hover {
 }
 
 /* Planos */
+
+.assinaturas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.assinatura-card{
+    padding: 1rem 1rem 2rem 1rem;
+    width: 90%;
+    border-radius: 17px;
+    box-shadow: -1px 0px 20px 1px rgb(181 181 181 / 44%);
+}
+
+.assinatura-card h2{
+    text-align: center;
+}
+
+.plano-premium-card{
+    border: 4px solid var(--destaque-escuro);
+}
+
+.topo-melhor-plano{
+    position: relative;
+    padding: 0.6rem 1.8rem;
+    top: -2.5rem;
+    display: block;
+    border-radius: 15px;
+    font-weight: 600;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1.6rem;
+    background-color: var(--verde-agua);
+}
+
 .argumento-planos{
     display: flex;
     flex-direction: column;
@@ -252,7 +290,148 @@ a:hover {
 
 .argumento-planos svg{
     fill: var(--preto);
-    width: 4.4rem;
+    width: 4rem;
+}
+
+.preco-assinatura{
+    font-size: 140%;
+    text-align: center;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.info-preco-assinatura{
+    font-size: smaller;
+    text-align: center;
+    font-weight: 300;
+    display: block;
+}
+
+.btn-acao-assinatura{
+    color: var(--branco);
+    background-color: var(--preto);
+    padding: 0.5rem;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.info-assinatura{
+    text-align: center;
+    font-weight: 500;
+}
+
+.funcoes-assinatura{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.funcoes-assinatura span{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: 79%;
+}
+
+.funcao-ativa svg{
+    fill: var(--destaque-claro);
+    width: 1rem;
+    height: 1rem;
+    min-width: 1rem;
+    min-height: 1rem;
+}
+
+.funcao-desativada svg{
+    fill: var(--cinza-escuro);
+    width: 1rem;
+    height: 1rem;
+    min-width: 1rem;
+    min-height: 1rem;
+}
+
+.funcao-ativa p{
+    text-decoration: underline;
+}
+
+.funcao-desativada p{
+    text-decoration: underline;
+}
+
+#abrir-modal-termos-pag{
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.ativo-modal{
+    display: flex!important;
+}
+
+.modal-termos-pagamento{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--preto-transparente);
+}
+
+.modal-termos-pagamento section{
+    background-color: var(--branco);
+    max-width: var(--largura-total-pagina);
+    margin: 0 1.5rem;
+    border-radius: 15px;
+}
+
+.modal-termos-pagamento p{
+    padding: 0.1rem 2rem 2rem 2rem;
+}
+
+#sair-modal-pagamento{
+    padding: 0.8rem 2rem 0 2rem;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+#sair-modal-pagamento svg{
+    fill: var(--preto);
+    width: 3rem;
+}
+
+/* Obrigado bmvp */
+
+.ok-obrigado{
+    fill: var(--destaque-escuro);
+    width: 70%;
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-registro-obrigado{
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.obs-registro-obrigado{
+    font-weight: 500;
+    font-size: larger;
+    text-decoration: underline;
 }
 
 /* Footer */
