@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planos - Falalo</title>
-    <meta name="description" content="Planos e preço Falalo Chat: Inicial, Premium e Premium +">
+    <title>Plano premium plus - Falalo</title>
+    <meta name="description" content="Assinatura Premium Plus, Chatbot Falalo">
     <link rel="stylesheet" href="/assets/main.css">
 </head>
 
