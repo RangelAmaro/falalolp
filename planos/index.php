@@ -33,7 +33,7 @@
                 <p class="info-assinatura bottom-m">Plano para começar a automatizar apenas mensagens.</p>
                 <span class="preco-assinatura">R$ 159,88/mês</span>
                 <span class="info-preco-assinatura bottom-m">*Referente ao plano de 12 meses.</span>
-                <a href="/planos/inicial/" class="btn-acao-assinatura bottom-g">Continuar</a>
+                <a href="/planos/inicial/" class="btn-acao-assinatura bottom-g">Selecionar</a>
                 <hr class="bottom-m">
 
                 <div class="funcoes-assinatura">
@@ -131,7 +131,7 @@
                 <p class="info-assinatura bottom-m">Adicione Integrações para seu fluxo.</p>
                 <span class="preco-assinatura">R$ 179,28/mês</span>
                 <span class="info-preco-assinatura bottom-m">*Referente ao plano de 12 meses.</span>
-                <a href="/planos/premium/" class="btn-acao-assinatura bottom-g">Continuar</a>
+                <a href="/planos/premium/" class="btn-acao-assinatura bottom-g">Selecionar</a>
                 <hr class="bottom-m">
 
                 <div class="funcoes-assinatura">
@@ -228,7 +228,7 @@
                 <p class="info-assinatura bottom-m">Plano com <strong>todas as funções ativas</strong>.</p>
                 <span class="preco-assinatura">R$ 253,94/mês</span>
                 <span class="info-preco-assinatura bottom-m">*Referente ao plano de 12 meses.</span>
-                <a href="/planos/premium-plus/" class="btn-acao-assinatura bottom-g">Continuar</a>
+                <a href="/planos/premium-plus/" class="btn-acao-assinatura bottom-g">Selecionar</a>
                 <hr class="bottom-m">
 
                 <div class="funcoes-assinatura">

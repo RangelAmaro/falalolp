@@ -46,6 +46,10 @@ a:hover {
     color: var(--destaque-escuro);
 }
 
+.bottom-p {
+    margin-bottom: 0.4rem;
+}
+
 .bottom-m {
     margin-bottom: 0.7rem;
 }
@@ -409,6 +413,126 @@ a:hover {
 #sair-modal-pagamento svg{
     fill: var(--preto);
     width: 3rem;
+}
+
+/* Checkout */
+
+.nome-plano-checkout{
+    font-size: larger;
+}
+
+.aviso-p{
+    font-size: smaller;
+    color: var(--cinza-escuro);
+}
+
+.escolha-tempo-assinatura{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tempo-assinatura{
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: -1px 0px 20px 1px rgb(181 181 181 / 44%);
+}
+
+.tempo-selecionado{
+    border: 3px solid var(--verde-agua);
+    transition: 0.2s;
+}
+
+.topo-tempo-assinatura{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.topo-tempo-assinatura span{
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 0.2rem solid var(--verde-agua);
+    background-color: var(--branco);
+    display: block;
+    border-radius: 100%;
+}
+
+.tempo-selecionado .topo-tempo-assinatura span{
+    border: 0.5rem solid var(--verde-agua)!important;
+    background-color: var(--branco)!important;
+    width: 1rem!important;
+    height: 1rem!important;
+}
+
+.topo-tempo-assinatura p{
+    font-weight: 600;
+}
+
+.preco-assinatura-mensal{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.preco-assinatura-total{
+    font-weight: 600;
+    font-size: medium;
+}
+
+.economize-plano{
+    display: block;
+    width: fit-content;
+    margin: -1rem auto auto auto;
+    padding: 0.5rem 1rem;
+    background-color: var(--verde-agua);
+    position: relative;
+    top: 2rem;
+    border-radius: 35px;
+}
+
+/* Mautic */
+
+.mauticform_wrapper{
+    padding: 1.5rem;
+    box-shadow: -1px 0px 20px 1px rgb(181 181 181 / 44%);
+    border-radius: 10px;
+}
+
+.campo-checkout{
+    width: 100%;
+    font-size: medium;
+    display: block;
+    font-weight: 500;
+}
+
+.mauticform-input{
+    width: 100%;
+    padding: 0.4rem 0.7rem;
+    font-size: medium;
+    margin-bottom: 0.4rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--cinza);
+    box-sizing: border-box;
+}
+
+.btn-acao-mautic-checkout{
+    color: var(--branco);
+    background-color: var(--preto);
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.7rem;
+}
+
+#mauticform_capplanoinicial_tempo_do_plano, #mauticform_capplanoinicial_plano, #mauticform_capplanopremium_plano, #mauticform_capplanopremium_tempo_do_plano, #mauticform_capplanopremiumplus_plano, #mauticform_capplanopremiumplus_tempo_do_plano{
+    display: none!important;
 }
 
 /* Obrigado bmvp */
