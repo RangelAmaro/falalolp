@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veja sua caixa de email</title>
     <link rel="stylesheet" href="/assets/main.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icon-falalo.png">
 </head>
 <body>
 <?php include '../header.php'; ?>

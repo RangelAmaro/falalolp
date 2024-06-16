@@ -7,6 +7,7 @@
     <title>Falalo Chat</title>
     <meta name="description" content="Chatbot para automatizar o WhatsApp">
     <link rel="stylesheet" href="assets/main.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icon-falalo.png">
 </head>
 
 <body>

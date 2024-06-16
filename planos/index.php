@@ -7,6 +7,7 @@
     <title>Planos - Falalo</title>
     <meta name="description" content="Planos e preço Falalo Chat: Inicial, Premium e Premium +">
     <link rel="stylesheet" href="/assets/main.css">
+    <link rel="icon" type="image/x-icon" href="/assets/icon-falalo.png">
 </head>
 
 <body>
