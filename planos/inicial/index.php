@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plano inicial - Falalo</title>
     <meta name="description" content="Assinatura Inicial, Chatbot Falalo">
-    <link rel="stylesheet" href="/assets/main.css">
-    <link rel="icon" type="image/x-icon" href="/assets/icon-falalo.png">
-</head>
 
-<body>
     <?php include '../../header.php'; ?>
 
     <main class="main-1">
