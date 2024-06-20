@@ -97,10 +97,10 @@
         <div class="carousel-wrapper">
             <div class="carousel-container">
                 <div class="carousel-slide">
-                    <img src="assets/teste-car.png" alt="Image 1">
-                    <img src="assets/teste-car.png" alt="Image 2">
-                    <img src="assets/teste-car.png" alt="Image 3">
-                    <img src="assets/teste-car.png" alt="Image 4">
+                    <img src="assets/carrousel-1.png" alt="Image 1">
+                    <img src="assets/carrousel-2.png" alt="Image 2">
+                    <img src="assets/carrousel-3.png" alt="Image 3">
+                    <img src="assets/carrousel-4.png" alt="Image 4">
                 </div>
             </div>
             <div class="carousel-indicators">
