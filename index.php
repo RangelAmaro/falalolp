@@ -12,9 +12,8 @@
         <h1 class="bottom-m">Leia um Qr-Code e seu <span class="texto-destaque">WhatsApp está automatizado!</span>
         </h1>
 
-        <span class="chamada-video-vsl center-h">Assista o video abaixo</span>
-        <div class="vsl-container bottom-m">
-            <iframe class="vsl-home" src="https://www.youtube-nocookie.com/embed/xneaLn8oPTg?si=rXD9pf9jk8Xf1i-6&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="imagem-produto bottom-g">
+            <img src="assets/imagem-principal-produto.png" alt="">
         </div>
 
 

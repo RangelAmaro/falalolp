@@ -142,6 +142,12 @@ a:hover {
     border-radius: 10px;
 }
 
+.imagem-produto img{
+    width: 100%;
+    box-shadow: -1px 0px 20px 1px rgb(181 181 181 / 44%);
+    border-radius: 10px;
+}
+
 .chamada-media {
     display: flex;
     flex-direction: column;
